@@ -80,7 +80,7 @@ describe('3 - Crie o endpoint POST /login', () => {
         const { body } = responseLogin;
         const result = JSON.parse(body);
         expect(result.message).toBe(
-          'A "senha" deve ter pelo menos 6 caracteres',
+          'O "password" deve ter pelo menos 6 caracteres',
         );
       });
   });
