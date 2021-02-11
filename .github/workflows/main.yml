@@ -19,11 +19,11 @@ jobs:
         uses: betrybe/jest-evaluator-action@v7
         with:
           repository-test-name: 'betrybe/sd-0x-crush-manager-tests'
-          repository-test-branch: 'main'
+          repository-test-branch: 'Bugfix/it-term'
           npm-start: true
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
         with:
           evaluation-data: ${{ steps.evaluator.outputs.result }}
-          environment: production
+          environment: staging
           pr-number: ${{ github.event.number }}
