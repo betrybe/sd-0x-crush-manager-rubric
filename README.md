@@ -638,7 +638,6 @@ Isso está configurado para o avaliador funcionar.
 
 **Dica** é importante ter atenção se essa rota não entra em conflito com as outras, já que a ordem das rotas faz diferença na interpretação da aplicação
 
-
 ---
 
 # Avisos finais
